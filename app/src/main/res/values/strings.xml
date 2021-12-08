@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">memoryGame</string>
+    <string name="button">Button</string>
+    <string name="this_is_game_logo">this is game logo</string>
+    <string name="name">name</string>
+    <string name="this_is_a_button_to_start_the_game">this is a button to start the game</string>
+    <string name="bring_it_on_b_tch_n_n_n">Bring it on B*TCH\n\n\n</string>
+    <string name="gugu_gaga_n_n_n">gugu...gaga\n\n\n</string>
+    <string name="username">username*</string>
+    <string name="image">image</string>
+    <string name="press_button_to_start">Press button to start</string>
+</resources>

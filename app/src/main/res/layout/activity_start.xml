@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="511dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-97dp"
+        app:srcCompat="@drawable/logo_1"
+        android:contentDescription="@string/this_is_game_logo" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/switch2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="50dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:textAllCaps="true"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:importantForAutofill="no" />
+
+    <ImageView
+        android:id="@+id/startGame"
+        android:layout_width="250dp"
+        android:layout_height="146dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/download"
+        android:contentDescription="@string/this_is_a_button_to_start_the_game" />
+
+    <TextView
+        android:id="@+id/helper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_marginLeft="108dp"
+        android:layout_marginBottom="-26dp"
+        android:text="@string/username"
+        android:textColor="#000000"
+        tools:ignore="RtlHardcoded" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:layout_above="@+id/startGame"
+        android:layout_alignEnd="@+id/startGame"
+        android:layout_centerVertical="false"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:showText="true"
+        android:textOff="@string/gugu_gaga_n_n_n"
+        android:textOn="@string/bring_it_on_b_tch_n_n_n"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+</RelativeLayout>
