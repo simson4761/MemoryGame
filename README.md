@@ -18,3 +18,6 @@ Enjoy the game......!!!
 .
 If you have any doubts playing the game follow the link below:-
 https://www.youtube.com/watch?v=cPiDHXtM0VA
+Enjoy the gameplay:-
+https://user-images.githubusercontent.com/93464093/145410716-d292e74d-02ef-4eb5-a9bc-ffffdf4d1d6f.MOV
+
